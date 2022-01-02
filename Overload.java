@@ -1,5 +1,5 @@
 class Overload{
-	public static void main(){
+	public static void main(String[] args){
 	OverloadDemo ob = new OverloadDemo();
 	double result;
 
