@@ -16,6 +16,7 @@ public class HandleError {
 				System.out.println();
 			} catch (ArithmeticException e) {
 				// TODO: handle exception
+				System.out.println("Error: "+e);
 				System.out.println("Division by zero.");
 				a=0; // set to zero and continue
 				System.out.println();
